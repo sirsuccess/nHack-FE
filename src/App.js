@@ -1,13 +1,20 @@
-import React from 'react';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
 
-import AppRouter from "./routes"
+import AppRouter from "./routes";
 
-import './App.css';
+const useStyles = makeStyles((theme) => ({
+  App: {
+    textAlign: "center",
+    backgroundColor: "#fef4ec",
+  },
+}));
 
 function App() {
+  const classes = useStyles();
   return (
-    <div className="App">
-      <AppRouter/>
+    <div className={classes.App}>
+      <AppRouter />
     </div>
   );
 }
