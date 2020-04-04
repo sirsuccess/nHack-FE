@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
   FirstSection: {
     display: "flex",
     justifyContent: "space-between",
+    flexWrap:"wrap",
     alignItems: "center",
     marginTop: "5em",
     paddingLeft: "24px",
@@ -48,7 +49,7 @@ function FirstSection() {
         <p>Participate in challenges. learn, get hired and grow.</p>
         <Button />
       </div>
-      <img src="assets/mobile.jpeg" className={classes.img} alt="mobile" />
+      <img src="https://res.cloudinary.com/sirsuccess/image/upload/v1586035174/react-native%20snapshot/mobile_wsijok.jpg" className={classes.img} alt="mobile" />
     </div>
   );
 }

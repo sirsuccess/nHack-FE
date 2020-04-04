@@ -44,7 +44,7 @@ export default function ButtonAppBar() {
             color="inherit"
             aria-label="menu"
           >
-            <img src="assets/logo.jpeg" alt="" />
+            <img src="https://res.cloudinary.com/sirsuccess/image/upload/v1586035173/react-native%20snapshot/logo_rkdnco.jpg" alt="" />
           </IconButton>
           <Typography variant="h6" className={classes.title}></Typography>
           <Button color="inherit" className={classes.recruit}>
