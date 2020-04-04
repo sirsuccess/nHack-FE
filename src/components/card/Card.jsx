@@ -35,6 +35,9 @@ const useStyles = makeStyles((theme) => ({
     // marginTop: "1em",
     paddingBottom: "5em",
   },
+  txt:{
+    textAlign: "left"
+  }
 }));
 
 export default function RecipeReviewCard() {
@@ -49,7 +52,7 @@ export default function RecipeReviewCard() {
             <CardHeader title={item.title} />
             <img src={item.img} alt="" />
             <CardContent>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography variant="body2" color="textSecondary" className={classes.txt} component="p">
                 {item.text}
               </Typography>
             </CardContent>

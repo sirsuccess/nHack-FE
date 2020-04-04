@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+@media screen and (max-width: 700px) {
+  .makeStyles-FirstSection-122{
+    flex-direction: column;
+  }
+  .makeStyles-text-123{
+    width: 95% !important;
+    text-align: center !important;
+    margin-bottom: 5em;
+    padding-right: 2em !important;
+  }
+  .makeStyles-img-126{
+    width: 100% !important;
+  }
+  .makeStyles-secondSection-128{
+    width: 90% !important;
+  }
+}

@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
   FirstSection: {
     display: "flex",
     justifyContent: "space-between",
+    flexWrap:"wrap",
     alignItems: "center",
     marginTop: "5em",
     paddingLeft: "24px",
