@@ -10,6 +10,9 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "auto",
     lineHeight: "2.5em",
     textAlign: "left",
+    "@media (max-width: 780px)": {
+      width: "90%",
+    },
   },
 }));
 
