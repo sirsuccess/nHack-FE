@@ -7,15 +7,24 @@ const useStyles = makeStyles((theme) => ({
   FirstSection: {
     display: "flex",
     justifyContent: "space-between",
-    flexWrap:"wrap",
+    flexWrap: "wrap",
     alignItems: "center",
     marginTop: "5em",
     paddingLeft: "24px",
     paddingLight: "24px",
+    "@media (max-width: 780px)": {
+      flexDirection: "column",
+    },
   },
   text: {
     textAlign: "left",
     width: "40%",
+    "@media (max-width: 780px)": {
+      width: "95%",
+      textAlign: "center",
+      marginBottom: "5em",
+      paddingRight: "2em ",
+    },
   },
 
   textHeader: {
@@ -34,6 +43,9 @@ const useStyles = makeStyles((theme) => ({
   },
   img: {
     width: "50%",
+    "@media (max-width: 780px)": {
+      width: "100%",
+    },
   },
 }));
 
@@ -49,7 +61,11 @@ function FirstSection() {
         <p>Participate in challenges. learn, get hired and grow.</p>
         <Button />
       </div>
-      <img src="https://res.cloudinary.com/sirsuccess/image/upload/v1586035174/react-native%20snapshot/mobile_wsijok.jpg" className={classes.img} alt="mobile" />
+      <img
+        src="https://res.cloudinary.com/sirsuccess/image/upload/v1586035174/react-native%20snapshot/mobile_wsijok.jpg"
+        className={classes.img}
+        alt="mobile"
+      />
     </div>
   );
 }
